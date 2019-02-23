@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
 img {
   width: 100%;
 }
@@ -13,4 +15,71 @@ img {
 .photos:hover img {
   transform: scale(1.04);
   opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  color: #000000
+}
+
+a {
+  color: #a19a9a;
+}
+
+#filas {
+  display: flex;
+  max-width: 1500px;
+  margin: auto;
+}
+
+#filas:nth-of-type(1) {
+  max-width: 250px;
+}
+
+#pruebas {
+  display: flex;
+  max-width: 1000px;
+}
+
+/*---------MARCAS---------*/
+
+#main {
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 5em;
+}
+
+#marcas {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  align-content: center;
+}
+
+.grid-item > img{
+  max-width: 60%;
+  display: flex;
+  align-self: center;
+  align-content: center;
+}
+
+@media (max-width: 600px) {
+  #marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-item > img{
+    max-width: 100%;
+  }
 }
