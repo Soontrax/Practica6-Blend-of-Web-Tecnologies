@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+p{
+  font-family: 'Lato', sans-serif;
+}
 
 img {
   width: 100%;
@@ -58,6 +63,11 @@ a {
   margin-top: 5em;
 }
 
+.badge-dark {
+  color: #fff;
+  background-color: purple;
+}
+
 #marcas {
   display: grid;
   grid-column-gap: 50px;
@@ -71,6 +81,13 @@ a {
   display: flex;
   align-self: center;
   align-content: center;
+}
+
+.etiquetas{
+  background-color: darkgrey;
+  border-radius: 3px;
+  padding: 15px;
+  display: flex;
 }
 
 @media (max-width: 600px) {
