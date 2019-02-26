@@ -4,21 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Snooker World</title>
+    <title>Soy Motor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="img/power_snooker_TcO_icon.ico">
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -29,6 +29,27 @@
 </head>
 
 <body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" style="width: 50px">Soy motor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="marcas.html">Marcas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div id="main">
         <h2>Todos los coches - Información, fichas y precios</h2>
@@ -37,26 +58,71 @@
         <hr>
 
         <div id="marcas">
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/abarth.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/alfa-romeo.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/alpine.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/aston-martin.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/audi.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/bentley.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/bmw.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/citroen.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/ferrari.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/fiat.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/ford.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/honda.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/infinity.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/isuzu.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/jaguar.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/jeep.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/kia.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/lamborghini.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/land-rover.png"></div>
-            <div class="grid-item"><img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/lexus.png"></div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/abarth.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/alfa-romeo.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/alpine.png">
+            </div>
+            <div class="grid-item">
+                <img
+                    src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/aston-martin.png">
+            </div>
+
+            <!---->
+
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/audi.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/bentley.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/bmw.png">
+
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/citroen.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/ferrari.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/fiat.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/ford.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/honda.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/infinity.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/isuzu.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/jaguar.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/jeep.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/kia.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/lamborghini.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/land-rover.png">
+            </div>
+            <div class="grid-item">
+                <img src="https://noticias.coches.com/wp-content/plugins/tsmc.coches.com/assets/makers/lexus.png">
+            </div>
         </div>
 
     </div>
